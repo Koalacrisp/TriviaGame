@@ -1,0 +1,79 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/arlen.png");
+	background-position: center;
+	background-color: black;
+	background-repeat: no-repeat;
+	font-family: Arial;
+	height: 100%;
+}
+
+h1 {
+	color: white;
+}
+
+.title {
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 1%;
+}
+
+.play_button {
+	width: 600px;
+	margin-top: 6%;
+	margin-left: 43%;
+}
+
+.time {
+	color: #FF2121;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+	margin-top: 2%;
+	font-size: 24px;
+}
+
+.questions_1 {
+	color: #FF2121;
+	float: left;
+	text-shadow: 1px 1px black;
+	margin-top: 2%;
+	margin-left: 8%;
+	font-size: 16px;
+}
+
+.questions_1 input {
+	color: #FF2121;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+	margin-top: 2%;
+	font-size: 8px;
+}
+
+.questions_2 {
+	color: #FF2121;
+	float: right;
+	text-shadow: 1px 1px black;
+	margin-top: 2%;
+	margin-right: 8%;
+	font-size: 16px;
+}
+
+.questions_2 input {
+	color: #FF2121;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+	margin-top: 2%;
+	font-size: 8px;
+}
+
+.submit {
+	width: 600px;
+	margin-top: 6%;
+	margin-left: 43%;
+	position: absolute;
+	bottom: 0;
+}

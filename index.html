@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>King of the Hill Trivia</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src="assets/javascript/app.js"></script>
+</head>
+<body>
+	<div class="title">
+		<img src="assets/images/koth_trivia.png">
+	</div>
+	<div class="play_button">
+		<input id="play" type="image" src="assets/images/play_button.png">
+	</div>
+	<div class="time">Time remaining: 
+		<div class="timer"></div>
+	</div>
+	<div class="questions_1">
+		What is the name of Hank's dog?
+		<form id="q1">
+			<input type="radio" name="q1" value="wrong">Ladygirl</input>
+			<input type="radio" name="q1" value="wrong">Miss Lady</input>
+			<input type="radio" name="q1" value="correct">Ladybird</input>
+			<input type="radio" name="q1" value="wrong">Doggy</input>
+		</form>
+		<br>
+		What was Bill Dauterive's nickname in high school?
+		<form id="q2">
+			<input type="radio" name="q2" value="correct">Billdozer</input>
+			<input type="radio" name="q2" value="wrong">Billdriller</input>
+			<input type="radio" name="q2" value="wrong">Billimanjaro</input>
+			<input type="radio" name="q2" value="wrong">Billifier</input>
+		</form>
+		<br>
+		Dang it...
+		<form id="q3">
+			<input type="radio" name="q3" value="correct">Bobby</input>
+			<input type="radio" name="q3" value="wrong">Doggy</input>
+			<input type="radio" name="q3" value="wrong">Charcoal</input>
+			<input type="radio" name="q3" value="wrong">CharKing</input>
+		</form>
+		<br>
+		What game does Peggy Hill love to play?
+		<form id="q4">
+			<input type="radio" name="q4" value="wrong">Uno</input>
+			<input type="radio" name="q4" value="correct">Boggle</input>
+			<input type="radio" name="q4" value="wrong">Chess</input>
+			<input type="radio" name="q4" value="wrong">Monopoly</input>
+		</form>
+		<br>
+		What is Boomhauer's career?
+		<form id="q5">
+			<input type="radio" name="q5" value="wrong">MLM Manager</input>
+			<input type="radio" name="q5" value="wrong">Propane Salesman</input>
+			<input type="radio" name="q5" value="correct">Texas Ranger</input>
+			<input type="radio" name="q5" value="wrong">Auctioneer</input>
+		</form>
+	</div>
+	<div class="questions_2">
+		Who is the owner of the propane business that Hank works at?
+		<form id="q6">
+			<input type="radio" name="q6" value="wrong">Hank</input>
+			<input type="radio" name="q6" value="wrong">Luane Platter</input>
+			<input type="radio" name="q6" value="wrong">M. Thatherton</input>
+			<input type="radio" name="q6" value="correct">Buck Strickland</input>
+		</form>
+		<br>
+		What is Hank's favorite sport?
+		<form id="q7">
+			<input type="radio" name="q7" value="correct">Football</input>
+			<input type="radio" name="q7" value="wrong">Baseball</input>
+			<input type="radio" name="q7" value="wrong">Hockey</input>
+			<input type="radio" name="q7" value="wrong">Wrestling</input>
+		</form>
+		<br>
+		How many men did Cotton Hill kill during WW2?
+		<form id="q8">
+			<input type="radio" name="q8" value="wrong">10</input>
+			<input type="radio" name="q8" value="wrong">20</input>
+			<input type="radio" name="q8" value="wrong">30</input>
+			<input type="radio" name="q8" value="correct">50</input>
+		</form>
+		<br>
+		What country is Kahn Souphanousiphone from?
+		<form id="q9">
+			<input type="radio" name="q9" value="correct">Laos</input>
+			<input type="radio" name="q9" value="wrong">Vietnam</input>
+			<input type="radio" name="q9" value="wrong">Japan</input>
+			<input type="radio" name="q9" value="wrong">China</input>
+		</form>
+		<br>
+		What does Dale Gribble carry in his pocket?
+		<form id="q10">
+			<input type="radio" name="q10" value="wrong">Sand</input>
+			<input type="radio" name="q10" value="correct">Bug spray</input>
+			<input type="radio" name="q10" value="wrong">NRA Handbook</input>
+			<input type="radio" name="q10" value="wrong">Conspiracy notes</input>
+		</form>
+	</div>
+	<div class="submit">
+		<input id="submit" type="image" src="assets/images/submit_button.png">
+	</div>
+
+</body>
+</html>
